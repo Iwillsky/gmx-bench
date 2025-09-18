@@ -1,14 +1,14 @@
 ## Benchmark command:
 
-### benchMEM 81K cells
+### benchMEM 81K atoms
 gmx mdrun -s benchMEM.tpr 
 
 
-### benchRIB 2M cells
+### benchRIB 2M atoms
 gmx mdrun -s benchRIB.tpr
 
 
-### benchPEP 12M cells
+### benchPEP 12M atoms
 gmx mdrun -s benchPEP.tpr -nsteps -1 -maxh 0.5 -resethway -noconfout
 
 
@@ -16,7 +16,7 @@ gmx mdrun -s benchPEP.tpr -nsteps -1 -maxh 0.5 -resethway -noconfout
 gmx mdrun -s ion_channel.tpr -nsteps 10000
 
 
-### ceeulose & lignocellulosic biomass 3M atoms
+### cellulose and lignocellulosic biomass 3M atoms
 gmx mdrun -s lignocellulose.tpr -nsteps 10000
 
 
